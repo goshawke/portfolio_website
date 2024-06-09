@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:black;
+}
+
+body{
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid black;
+    background-color: gray;
+    z-index: 2;
+}
+
+nav{
+    justify-content: end;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+header li::before {   
+    content: '';   
+    display: inline-block;   
+    height: 25px;   
+    width: 25px;    
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header li {
+    padding-left: 25px;
+    font-size: 2rem;
+}
+
+main{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#intro{
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    
+}
+
+#intro p {
+    padding: 0 100px 0 100px;
+    text-align: justify;
+}
+
+.profile-img{
+    object-fit: contain;
+    height: 50%;
+    width: 50%;
+}
+
+.project{
+    
+    
+}
+
+
+footer {
+    position: fixed;
+    height: 30px;
+    min-width: 100%;
+    z-index: 2;
+    background-color:gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    bottom: 0px;
+}
