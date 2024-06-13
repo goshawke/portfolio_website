@@ -20,26 +20,26 @@ When the mouse leaves, the color reverts
 const email_icon = document.getElementById("email-icon");
 
 email_icon.addEventListener('mouseover', (event) => {
-    event.target.style.color = 'blue';
+    event.target.style.color = '#1ABC9C';
 });
 email_icon.addEventListener('mouseout', (event) => {
-    event.target.style.color = 'white';
+    event.target.style.color = '#2C3E50';
 });
 
 const linkedin_icon = document.getElementById("linkedin-icon");
 
 linkedin_icon.addEventListener('mouseover', (event) => {
-    event.target.style.color = 'blue';
+    event.target.style.color = '#1ABC9C';
 });
 linkedin_icon.addEventListener('mouseout', (event) => {
-    event.target.style.color = 'white';
+    event.target.style.color = '#2C3E50';
 });
 
 const github_icon = document.getElementById("github-icon");
 
 github_icon.addEventListener('mouseover', (event) => {
-    event.target.style.color = 'blue';
+    event.target.style.color = '#1ABC9C';
 });
 github_icon.addEventListener('mouseout', (event) => {
-    event.target.style.color = 'white';
+    event.target.style.color = '#2C3E50';
 });
