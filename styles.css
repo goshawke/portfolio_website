@@ -66,7 +66,7 @@ header li {
 
 main{
     position: absolute;
-    top: 100px;
+    top: 50px;
     width: 100%;
     padding-bottom: 50px;
 }
@@ -91,6 +91,7 @@ main{
     object-fit: contain;
     height: 40%;
     width: 40%;
+    border-radius: 5%;
 }
 
 .projects h2{
@@ -124,6 +125,7 @@ main{
 
 .project h3, p{
     margin: 0;
+    
 }
 
 .project span{
@@ -134,10 +136,11 @@ main{
     height: 100%;
     width: 300px;
     border: 1px white solid;
+    border-radius: 5%;
 }
 
 #project1 .project-img{
-    background-color: yellow;
+    background-color: gold;
     object-fit: contain;
 
 }
@@ -145,6 +148,40 @@ main{
 #project4 .project-img{
     background-color: white;
 }
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#contact div {
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.fab, .fa-solid {
+    vertical-align: middle; /* Aligns the icon with the text */
+    margin-right: 8px; /* Adds space between the icon and the text */
+    color: white; /* Default color */
+}
+
+.icon-large {
+    font-size: 72px; /* Larger size */
+}
+
+.icon-small {
+    font-size: 24px; /* Smaller size */
+}
+
+
 
 
 footer {
