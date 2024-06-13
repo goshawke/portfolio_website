@@ -13,7 +13,8 @@ profile_img.addEventListener('mouseout', (event) =>  {
 });
 
 
-/* Adds functionality to the contact icons. When each is hovered over, its color will change.
+/* 
+Adds functionality to the contact icons. When each is hovered over, its color will change.
 When the mouse leaves, the color reverts
 */
 
@@ -42,4 +43,28 @@ github_icon.addEventListener('mouseover', (event) => {
 });
 github_icon.addEventListener('mouseout', (event) => {
     event.target.style.color = '#2C3E50';
+});
+
+
+/*
+Adds functionality to the header buttons. When each is hovered over, its color will change.
+When the mouse leaves, the color reverts
+*/
+
+const home_btn = document.getElementById("home-btn");
+
+home_btn.addEventListener('mouseover', (event) => {
+    event.target.style.color = '#1ABC9C';
+});
+home_btn.addEventListener('mouseout', (event) => {
+    event.target.style.color = '#BDC3C7';
+});
+
+const projects_btn = document.getElementById("projects-btn");
+
+projects_btn.addEventListener('mouseover', (event) => {
+    event.target.style.color = '#1ABC9C';
+});
+projects_btn.addEventListener('mouseout', (event) => {
+    event.target.style.color = '#BDC3C7';
 });
