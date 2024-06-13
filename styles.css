@@ -36,6 +36,22 @@ nav{
     justify-content: end;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+span{
+    font-weight: bold;
+}
+
 header ul {
     list-style-type: none;
     display: inline-flex;
@@ -66,7 +82,7 @@ header li {
 
 main{
     position: absolute;
-    top: 50px;
+    top: 100px;
     width: 100%;
     padding-bottom: 50px;
 }
@@ -74,7 +90,7 @@ main{
 #intro{
     width: 100%;
     margin: 0;
-    padding: 50px;
+    padding: 0 50px;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
@@ -128,10 +144,6 @@ main{
     
 }
 
-.project span{
-    font-weight: bold;
-}
-
 .project-img{
     height: 100%;
     width: 300px;
@@ -162,7 +174,7 @@ main{
 
 #contact div {
     display: flex;
-    padding-left: 10px;
+    padding: 0 0 20px 10px;
     justify-content: space-between;
     gap: 15px;
 }
