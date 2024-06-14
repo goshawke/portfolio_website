@@ -4,13 +4,17 @@ When the mouse leaves, the image reverts
 */
 const profile_img = document.getElementById("profile-img");
 
-profile_img.addEventListener('mouseover', (event) => {
-    event.target.src="images/portrait_color.jpg";
-});
-
-profile_img.addEventListener('mouseout', (event) =>  {
-    event.target.src="images/portrait.jpg";
-});
+if(profile_img)
+    {
+        profile_img.addEventListener('mouseover', (event) => {
+            event.target.src="images/portrait_color.jpg";
+        });
+        
+        profile_img.addEventListener('mouseout', (event) =>  {
+            event.target.src="images/portrait.jpg";
+        });
+        
+    }
 
 
 /* 
@@ -19,31 +23,37 @@ When the mouse leaves, the color reverts
 */
 
 const email_icon = document.getElementById("email-icon");
-
-email_icon.addEventListener('mouseover', (event) => {
-    event.target.style.color = '#1ABC9C';
-});
-email_icon.addEventListener('mouseout', (event) => {
-    event.target.style.color = '#2C3E50';
-});
+if(email_icon){
+    email_icon.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+    });
+    email_icon.addEventListener('mouseout', (event) => {
+        event.target.style.color = '#2C3E50';
+    });
+}
 
 const linkedin_icon = document.getElementById("linkedin-icon");
+if(linkedin_icon){
 
-linkedin_icon.addEventListener('mouseover', (event) => {
-    event.target.style.color = '#1ABC9C';
-});
-linkedin_icon.addEventListener('mouseout', (event) => {
-    event.target.style.color = '#2C3E50';
-});
+    linkedin_icon.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+    });
+    linkedin_icon.addEventListener('mouseout', (event) => {
+        event.target.style.color = '#2C3E50';
+    });
+    
+}
 
 const github_icon = document.getElementById("github-icon");
+if(github_icon){
+    github_icon.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+    });
+    github_icon.addEventListener('mouseout', (event) => {
+        event.target.style.color = '#2C3E50';
+    });
+}
 
-github_icon.addEventListener('mouseover', (event) => {
-    event.target.style.color = '#1ABC9C';
-});
-github_icon.addEventListener('mouseout', (event) => {
-    event.target.style.color = '#2C3E50';
-});
 
 
 /*
@@ -52,19 +62,22 @@ When the mouse leaves, the color reverts
 */
 
 const home_btn = document.getElementById("home-btn");
+if(home_btn){
+    home_btn.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+    });
+    home_btn.addEventListener('mouseout', (event) => {
+        event.target.style.color = '#BDC3C7';
+    });
+}
 
-home_btn.addEventListener('mouseover', (event) => {
-    event.target.style.color = '#1ABC9C';
-});
-home_btn.addEventListener('mouseout', (event) => {
-    event.target.style.color = '#BDC3C7';
-});
 
 const projects_btn = document.getElementById("projects-btn");
-
-projects_btn.addEventListener('mouseover', (event) => {
-    event.target.style.color = '#1ABC9C';
-});
-projects_btn.addEventListener('mouseout', (event) => {
-    event.target.style.color = '#BDC3C7';
-});
+if(projects_btn){
+    projects_btn.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+    });
+    projects_btn.addEventListener('mouseout', (event) => {
+        event.target.style.color = '#BDC3C7';
+    });
+}
