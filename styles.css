@@ -181,8 +181,11 @@ main{
 }
 
 #intro p {
-    padding: 0 200px 0 200px;
+    margin: 0 200px 0 200px;
+    padding: 15px;
     text-align: justify;
+    background-color: #2C3E50;
+    border-radius: 5%;
 }
 
 .profile-img{
@@ -274,6 +277,7 @@ main{
     vertical-align: middle; /* Aligns the icon with the text */
     margin-right: 8px; /* Adds space between the icon and the text */
     color: #2C3E50; /* Default color */
+    margin-top: 10px;
 }
 
 .icon-large {

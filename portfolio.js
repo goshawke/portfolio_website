@@ -81,3 +81,20 @@ if(projects_btn){
         event.target.style.color = '#BDC3C7';
     });
 }
+
+
+/*
+Adds functionality to the project link. When each is hovered over, its color will change.
+When the mouse leaves, the color reverts
+*/
+
+const proj_link = document.getElementById("project-link");
+if(proj_link){
+    proj_link.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+    });
+    proj_link.addEventListener('mouseout', (event) => {
+        event.target.style.color = '#BDC3C7';
+    });
+}
+
