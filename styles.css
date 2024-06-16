@@ -81,6 +81,7 @@ a {
 }
 
 strong{
+    font-size: 1.25rem;
     color: #BDC3C7;
 }
 
@@ -91,8 +92,6 @@ header ul {
     align-items: center;
     height: 80px;
     width: 500px;
-    vertical-align: middle;
-    
 }
 
 header li::before {   
@@ -101,18 +100,17 @@ header li::before {
     height: 25px;   
     width: 25px;    
     margin-right: 5px;
-    vertical-align: middle;
 }
 
 header li a{
-    text-decoration: none;
-    color: #BDC3C7;
     font-family: "Bungee Shade", sans-serif;
-    vertical-align: middle;
+    
+
 }
 
 header li {
     font-size: 2rem;
+    line-height: 2rem;
 }
 
 main{
@@ -138,15 +136,14 @@ main{
     padding: 15px;
     text-align: justify;
     background-color: #2C3E50;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 .profile-img{
     object-fit: contain;
     height: 40%;
     width: 40%;
-    border-radius: 5%;
-}
+    border-radius: 25px;}
 
 .projects{
     width: 100%;
@@ -157,7 +154,7 @@ main{
     text-align: center;
     background-color:#2C3E50;
     padding: 40px 50px;
-    border-radius: 20%;
+    border-radius: 15px;
     font-family: "Bungee Shade", sans-serif;
 }
 
@@ -184,8 +181,7 @@ main{
     height: 100%;
     justify-content: space-between;
     background-color: #2C3E50;
-    border-radius: 5%;
-}
+    border-radius: 15px;}
 
 .project h3, p{
     margin: 0;
@@ -195,8 +191,7 @@ main{
     height: 100%;
     width: 400px;
     border: 1px white solid;
-    border-radius: 5%;
-}
+    border-radius: 15px;}
 
 #project1 .project-img{
     background-color: gold;
