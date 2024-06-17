@@ -65,24 +65,24 @@ const home_btn = document.getElementById("home-btn");
 if(home_btn){
     home_btn.addEventListener('mouseover', (event) => {
         event.target.style.color = '#1ABC9C';
-        event.target.style.fontSize="2.25rem";
+
     });
     home_btn.addEventListener('mouseout', (event) => {
         event.target.style.color = '#BDC3C7';
-        event.target.style.fontSize="2rem";
     });
-}
 
+
+}
 
 const projects_btn = document.getElementById("projects-btn");
 if(projects_btn){
     projects_btn.addEventListener('mouseover', (event) => {
         event.target.style.color = '#1ABC9C';
-        event.target.style.fontSize="2.25rem";
+
     });
     projects_btn.addEventListener('mouseout', (event) => {
+
         event.target.style.color = '#BDC3C7';
-        event.target.style.fontSize="2rem";
     });
 }
 

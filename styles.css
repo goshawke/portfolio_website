@@ -112,6 +112,10 @@ header li {
     line-height: 2rem;
 }
 
+header li:hover{
+    font-size: 2.25rem;
+}
+
 main{
     position: absolute;
     top: 100px;
@@ -290,6 +294,16 @@ footer h3, footer p{
     }
 
 
+    header li {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+    }
+
+    header li:hover{
+        font-size: 2.5rem;
+    }
+
+
 }
 
 @media (width <= 1500px) {
@@ -310,6 +324,10 @@ footer h3, footer p{
 
     header li{
         font-size: 1.5rem;
+    }
+
+    header li:hover{
+        font-size: 1.75rem;
     }
 
     header li::before {   
@@ -363,6 +381,23 @@ footer h3, footer p{
 
 @media (width <= 1000px) {
 
+    header ul{
+        width: 300px;
+        height: 50px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header li{
+        font-size: 1.25rem;
+    }
+
+    header li:hover{
+        font-size: 1.5rem;
+    }
+
     #profile-img{
         height: 60%;
         width: 60%;
@@ -371,7 +406,7 @@ footer h3, footer p{
     #intro p {
         margin: 0 15px 0 15px;
         padding: 15px;
-        text-align: justify;
+        text-align:center;
         background-color: #2C3E50;
         border-radius: 15px;
         font-size: 1.75rem;
