@@ -104,7 +104,6 @@ header li::before {
 
 header li a{
     font-family: "Bungee Shade", sans-serif;
-    
 
 }
 
@@ -132,7 +131,7 @@ main{
 }
 
 #intro p {
-    margin: 0 200px 0 200px;
+    margin: 0 150px 0 150px;
     padding: 15px;
     text-align: justify;
     background-color: #2C3E50;
@@ -143,7 +142,8 @@ main{
     object-fit: contain;
     height: 40%;
     width: 40%;
-    border-radius: 25px;}
+    border-radius: 25px;
+}
 
 .projects{
     width: 100%;
@@ -257,4 +257,128 @@ footer {
 footer h3, footer p{
     color: #BDC3C7;
     font-size: 1.25rem;
+}
+
+@media (width >= 2500px) {
+
+    .project-img {
+        width: 600px;
+    }
+
+    .project{
+        height:600px;
+        padding: 0px 25px;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    
+    .project div{
+        padding: 30px;
+    }
+
+    .project h3 {
+        font-size: 2.5rem;
+    }
+
+    .project p {
+        font-size:1.75rem;
+        padding: 10px 0;
+    }
+
+    strong{
+        font-size: 2rem;
+    }
+
+
+}
+
+@media (width <= 1500px) {
+
+    header {
+        height: 50px;
+        padding: 0px 10px;
+    }
+
+    header ul{
+        width: 400px;
+        height: 50px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header li{
+        font-size: 1.5rem;
+    }
+
+    header li::before {   
+        content: '';   
+        display: inline-block;   
+        height: 5px;   
+        width: 5px;    
+        margin-right: 5px;
+    }
+    
+    #intro p {
+        margin: 0 75px 0 75px;
+        padding: 15px;
+        text-align: justify;
+        background-color: #2C3E50;
+        border-radius: 15px;
+        font-size: 1.25rem;
+    }
+
+    strong{
+        font-size: 1.75rem;
+    }
+    
+    .project-img {
+        display: none;
+    }
+
+    .project{
+        height:fit-content;
+        padding: 0px 25px;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    
+    .project div{
+        padding: 10px;
+    }
+
+    .project h3 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .project p {
+        font-size:1.25rem;
+        padding: 10px 0;
+        
+    }
+}
+
+
+@media (width <= 1000px) {
+
+    #profile-img{
+        height: 60%;
+        width: 60%;
+    }
+    
+    #intro p {
+        margin: 0 15px 0 15px;
+        padding: 15px;
+        text-align: justify;
+        background-color: #2C3E50;
+        border-radius: 15px;
+        font-size: 1.75rem;
+    }
+
+    strong{
+        font-size: 2rem;
+    }
+    
 }
