@@ -52,6 +52,10 @@ nav{
     justify-content: end;
 }
 
+#header-alt {
+    display: none;
+}
+
 h1{
     color: #BDC3C7;
     font-size: 3rem;
@@ -433,4 +437,15 @@ footer h3, footer p{
         font-size: 2rem;
     }
     
+}
+
+@media (width <= 600px) {
+
+    #header-main {
+        display: none;
+    }
+
+    #header-alt {
+        display:inline-block;
+    }
 }
