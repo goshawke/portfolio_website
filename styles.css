@@ -317,6 +317,15 @@ footer h3, footer p{
         padding: 0px 10px;
     }
 
+    #header-main {
+        display: inline-block;
+    }
+
+    #header-alt {
+        display:none;
+    }
+
+
     header ul{
         width: 400px;
         height: 50px;
@@ -393,6 +402,14 @@ footer h3, footer p{
 
 
 @media (width <= 1000px) {
+
+    #header-main {
+        display: inline-block;
+    }
+
+    #header-alt {
+        display:none;
+    }
 
     header ul{
         width: 300px;
