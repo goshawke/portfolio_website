@@ -337,6 +337,10 @@ footer h3, footer p{
         width: 5px;    
         margin-right: 5px;
     }
+
+    main{
+        top: 50px;
+    }
     
     #intro p {
         margin: 0 75px 0 75px;
@@ -348,7 +352,11 @@ footer h3, footer p{
     }
 
     strong{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+    }
+    
+    .projects h2{
+        font-size: 2.5rem;
     }
     
     .project-img {
@@ -369,6 +377,7 @@ footer h3, footer p{
     .project h3 {
         text-align: center;
         padding: 10px;
+        font-size: 2rem;
     }
 
     .project p {
@@ -409,10 +418,18 @@ footer h3, footer p{
         text-align:center;
         background-color: #2C3E50;
         border-radius: 15px;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     strong{
+        font-size: 1.75rem;
+    }
+
+    .projects h2{
+        font-size: 3rem;
+    }
+
+    .project h3 {
         font-size: 2rem;
     }
     
