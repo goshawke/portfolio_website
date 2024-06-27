@@ -86,6 +86,18 @@ if(projects_btn){
     });
 }
 
+const resume_btn = document.getElementById("resume-btn");
+if(resume_btn){
+    resume_btn.addEventListener('mouseover', (event) => {
+        event.target.style.color = '#1ABC9C';
+
+    });
+    resume_btn.addEventListener('mouseout', (event) => {
+
+        event.target.style.color = '#BDC3C7';
+    });
+}
+
 
 
 /*

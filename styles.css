@@ -95,7 +95,7 @@ header ul {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    width: 500px;
+    width: 600px;
 }
 
 header li::before {   
@@ -112,12 +112,12 @@ header li a{
 }
 
 header li {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.75rem;
+    line-height: 1.75rem;
 }
 
 header li:hover{
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 main{
