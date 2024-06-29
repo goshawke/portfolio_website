@@ -63,15 +63,17 @@ h1{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #BDC3C7;
     font-family: "Bungee Shade", sans-serif;
+    letter-spacing: 0.75rem;
 }
 
 h3{
     font-size: 1.75rem;
     color: #BDC3C7;
     font-family: "Bungee Shade", sans-serif;
+    letter-spacing: 0.2rem;
 }
 
 h4{
@@ -276,7 +278,7 @@ footer h3, footer p{
 }
 
 #resume-main{
-    top: 50px;
+    top: 35px;
 }
 
 .resume{
@@ -297,6 +299,7 @@ footer h3, footer p{
     padding: 40px 50px;
     border-radius: 15px;
     font-family: "Bungee Shade", sans-serif;
+    
 }
 
 .resume-section{
@@ -319,12 +322,12 @@ footer h3, footer p{
     margin: 0 0 20px 0;
 }
 
-.school {
+.school, .job {
     width: 100%;
     margin-bottom: 30px;
 }
 
-.school-header{
+.school-header, .job-header{
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -335,6 +338,16 @@ footer h3, footer p{
 .school-header h4, .school-header p{
     margin: 0;
 }
+
+.job-header h4, .job-header p{
+    margin: 0;
+}
+
+.resume h4{
+    font-size: 1.5rem;
+    font-family: "Michroma", sans-serif;
+}
+
 
 @media (width >= 2500px) {
 
