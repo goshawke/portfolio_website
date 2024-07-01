@@ -343,6 +343,10 @@ footer h3, footer p{
     margin: 0;
 }
 
+.resume p a {
+    color:#BDC3C7;
+}
+
 .school-header h4, .job-header h4{
     color: #FFFFFF;
 }
@@ -363,6 +367,14 @@ footer h3, footer p{
 
 }
 
+.resume a{
+    color: #FFFFFF;
+}
+
+.resume a:hover{
+    color:#1ABC9C;
+}
+
 .skills-list ul {
     list-style-type: disk;
 }
@@ -373,9 +385,6 @@ footer h3, footer p{
     margin-left: -25px;
 }
 
-.skills-list li:hover{
-    font-size: 1.25rem;
-}
 
 
 @media (width >= 2500px) {
