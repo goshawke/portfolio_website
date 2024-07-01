@@ -346,6 +346,23 @@ footer h3, footer p{
 .resume h4{
     font-size: 1.5rem;
     font-family: "Michroma", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.skills-list ul {
+    list-style-type: disk;
+}
+
+.skills-list li {
+    font-size: 1rem;
+    color: #BDC3C7;
+    margin-left: -25px;
+}
+
+.skills-list li:hover{
+    font-size: 1.25rem;
 }
 
 
