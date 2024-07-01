@@ -343,12 +343,24 @@ footer h3, footer p{
     margin: 0;
 }
 
+.school-header h4, .job-header h4{
+    color: #FFFFFF;
+}
+
+.job strong{
+    font-size: 1rem;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
 .resume h4{
     font-size: 1.5rem;
     font-family: "Michroma", sans-serif;
     margin: 0;
     padding: 0;
     margin-top: 20px;
+    color: #FFFFFF;
+
 }
 
 .skills-list ul {
