@@ -167,9 +167,15 @@ main{
 }
 
 .projects{
-    width: 100%;
     text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
 }
+
 .projects h2{
     display: inline-block;
     text-align: center;
@@ -182,7 +188,6 @@ main{
 .project{
     width: 100%;
     height: 400px;
-    padding: 0px 50px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -224,6 +229,14 @@ main{
 
 #project4 .project-img{
     background-color: #53779b;
+}
+
+.project a {
+    border: 1px solid black;
+    background-color: #BDC3C7;
+    padding: 5px;
+    border-radius: 15px;
+    color: #2C3E50;
 }
 
 #contact{
@@ -289,6 +302,7 @@ footer h3, footer p{
     padding: 0 50px;
 }
 
+
 .resume h2{
     display: inline-block;
     text-align: center;
@@ -298,6 +312,22 @@ footer h3, footer p{
     border-radius: 15px;
     font-family: "Bungee Shade", sans-serif;
     
+}
+
+.resume h4{
+    font-size: 1.5rem;
+    font-family: "Michroma", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.resume a{
+    color: #FFFFFF;
+}
+
+.resume a:hover{
+    color:#1ABC9C;
 }
 
 .resume-section{
@@ -326,26 +356,34 @@ footer h3, footer p{
 }
 
 .school-header, .job-header{
-    display: flex;
+    display:flex;
     width: 100%;
     flex-direction: row;
-    align-items: center;
+    text-align: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
 }
 
 .school-header h4, .school-header p{
+    display: flex;
+    justify-content: center;
     margin: 0;
+    text-align: center;
+    
 }
 
 .job-header h4, .job-header p{
     margin: 0;
 }
 
+/*This is for company names in the job experience section*/
 .resume p a {
     color:#BDC3C7;
 }
 
-.school-header h4, .job-header h4{
+.school-header h4, .job-header h4, .job-header a{
     color: #FFFFFF;
 }
 
@@ -354,23 +392,7 @@ footer h3, footer p{
     font-style: italic;
 }
 
-.resume h4{
-    font-size: 1.5rem;
-    font-family: "Michroma", sans-serif;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    color: #FFFFFF;
 
-}
-
-.resume a{
-    color: #FFFFFF;
-}
-
-.resume a:hover{
-    color:#1ABC9C;
-}
 
 .skills-list{
     margin-top: 0;
@@ -388,13 +410,26 @@ footer h3, footer p{
 /* MEDIA QUERY - START */
 @media (width >= 2500px) {
 
+    #projects-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 100px;
+    }
+
     .project-img {
         width: 600px;
     }
 
     .project{
         height:600px;
-        padding: 0px 25px;
         margin-bottom: 15px;
         gap: 10px;
     }
@@ -436,6 +471,10 @@ footer h3, footer p{
 
     header li:hover{
         font-size: 2.25rem;
+    }
+
+    .resume {
+        padding: 0 100px;
     }
 
 
@@ -507,6 +546,10 @@ footer h3, footer p{
     strong{
         font-size: 1.5rem;
     }
+
+    .projects{
+        padding: 0 25px;
+    }
     
     .projects h2{
         font-size: 2.5rem;
@@ -518,7 +561,6 @@ footer h3, footer p{
 
     .project{
         height:fit-content;
-        padding: 0px 50px;
         margin-bottom: 15px;
         gap: 10px;
     }
@@ -538,7 +580,9 @@ footer h3, footer p{
         padding: 10px 0;
         
     }
-
+    .resume{
+        padding: 0 25px;
+    }
     
 }
 /* MEDIA QUERY: <= 1500px - END */
@@ -593,6 +637,10 @@ footer h3, footer p{
         top: 44px;
     }
 
+    .projects{
+        padding: 0 8px;
+    }
+
     .projects h2{
         font-size: 3rem;
     }
@@ -609,6 +657,10 @@ footer h3, footer p{
     
     footer h3, footer p{
         font-size: 1rem;
+    }
+
+    .resume{
+        padding: 0 8px;
     }
 }
 /* MEDIA QUERY: <= 1000px - END */
@@ -635,6 +687,14 @@ footer h3, footer p{
 
     header li:hover{
         font-size: 1.25rem;
+    }
+
+    .projects{
+        padding: 0 3px;
+    }
+
+    .resume{
+        padding: 0 3px;
     }
 }
 /* MEDIA QUERY: <= 725px - END*/

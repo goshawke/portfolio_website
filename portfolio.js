@@ -109,9 +109,11 @@ const proj_link1 = document.getElementById("project-link1");
 if(proj_link1){
     proj_link1.addEventListener('mouseover', (event) => {
         event.target.style.color = '#1ABC9C';
+        event.target.style.padding = '7px';
     });
     proj_link1.addEventListener('mouseout', (event) => {
-        event.target.style.color = '#BDC3C7';
+        event.target.style.color = '#2C3E50';
+        event.target.style.padding = '5px';
     });
 }
 
@@ -120,9 +122,11 @@ const proj_link2 = document.getElementById("project-link2");
 if(proj_link2){
     proj_link2.addEventListener('mouseover', (event) => {
         event.target.style.color = '#1ABC9C';
+        event.target.style.padding = '7px';
     });
     proj_link2.addEventListener('mouseout', (event) => {
-        event.target.style.color = '#BDC3C7';
+        event.target.style.color = '#2C3E50';
+        event.target.style.padding = '5px';
     });
 }
 
@@ -131,9 +135,11 @@ const proj_link3 = document.getElementById("project-link3");
 if(proj_link3){
     proj_link3.addEventListener('mouseover', (event) => {
         event.target.style.color = '#1ABC9C';
+        event.target.style.padding = '7px';
     });
     proj_link3.addEventListener('mouseout', (event) => {
-        event.target.style.color = '#BDC3C7';
+        event.target.style.color = '#2C3E50';
+        event.target.style.padding = '5px';
     });
 }
 
@@ -142,9 +148,11 @@ const proj_link4 = document.getElementById("project-link4");
 if(proj_link4){
     proj_link4.addEventListener('mouseover', (event) => {
         event.target.style.color = '#1ABC9C';
+        event.target.style.padding = '7px';
     });
     proj_link4.addEventListener('mouseout', (event) => {
-        event.target.style.color = '#BDC3C7';
+        event.target.style.color = '#2C3E50';
+        event.target.style.padding = '5px';
     });
 }
 
