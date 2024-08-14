@@ -33,16 +33,20 @@ To run this project locally:
    git clone https://github.com/goshawke/portfolio_website.git
 
 2. Navigate to the project directory:
-```bash
-cd portfolio_website```
+  ```bash
+  cd portfolio_website
+  ```
 
-3. Install the dependencies:
-```bash
-npm install```
 
-4. Start the development server:
-```bash
-npm start```
+4. Install the dependencies:
+  ```bash
+  npm install
+  ```
+
+6. Start the development server:
+  ```bash
+  npm start
+  ```
 
 5. Open your browser and visit http://localhost:3000 to view the website.
 
@@ -52,11 +56,13 @@ The website is deployed using GitHub Pages. To deploy any updates:
 
 1. Ensure all changes are committed and pushed to the main branch.
 2. Run the following command to build the production version of the website:
-```bash
-npm run build```
+  ```bash
+  npm run build
+```
 3. Deploy to GitHub Pages:
-```bash
-npm run deploy```
+  ```bash
+  npm run deploy
+```
 
 🎯 Goals
 - Professional Presence: Provide a comprehensive and professional overview of my skills and experiences.
